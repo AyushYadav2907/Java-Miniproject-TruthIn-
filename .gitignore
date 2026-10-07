@@ -1,0 +1,34 @@
+# Build output
+target/
+*.jar
+*.war
+*.class
+
+# Maven wrapper download cache
+.mvn/wrapper/maven-wrapper.jar
+
+# Secrets - never commit these
+.env
+*.env
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Local H2 database files
+*.mv.db
+*.trace.db
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+bin/
+
+# OS files
+.DS_Store
+Thumbs.db
